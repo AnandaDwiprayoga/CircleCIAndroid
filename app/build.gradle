@@ -50,4 +50,6 @@ dependencies {
     //binding delegate property
     implementation 'com.github.kirich1409:viewbindingpropertydelegate:1.4.6'
 
+    testImplementation("org.mockito:mockito-core:3.9.0")
+    testImplementation("org.mockito:mockito-inline:3.2.4")
 }
